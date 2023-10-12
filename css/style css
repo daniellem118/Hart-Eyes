@@ -14,18 +14,10 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 60px;
-  color: #fff;
+  font-size: 128px;
+  color: #FF0062;
   text-align: center;
 }
-
-
-/* Game Directions */
-.description {
-  text-align: center;
-  margin: 80px auto 40px;
-}
-
 
 .highlight {
   font-size: 18px;
