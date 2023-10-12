@@ -1,39 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet')
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+</style>)
 
- Body styling */
 body {
-  background: #FFDEDB;
-  color: #FF0062;
-  font-family: itim;
-  font-size: 128px;
-  font-weight: 400;
-  line-height: normal;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 40px 10px;  
-}
-
-
-/* Heading Styles */
-h1 {
-  font-size: 128px;
-  color: #FF0062;
-  text-align: center;
-}
-
-.highlight {
-  font-size: 18px;
-  line-height: 24px;
-  margin-left: 30px;
-  opacity: .8;
-}
-
-.hide {
-  opacity: 0;
-  height: 0;
-}
-
-.show {
-  opacity: 1;
-  height: 100%;
+  font-family: 'Itim', cursive;
 }
