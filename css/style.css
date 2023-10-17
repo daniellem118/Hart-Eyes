@@ -93,7 +93,9 @@ header p {
 
 
 @media screen and (max-width: 900px) { 
-header h1 {
+header h1 
+}
+{
     font-size: 60px;
 
     }
