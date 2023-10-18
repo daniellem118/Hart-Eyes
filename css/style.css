@@ -3,7 +3,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap')
 
-header{
+h1{
   font-family: 'Itim', cursive;
   font-size: 22px;
   }
@@ -68,6 +68,14 @@ header {
   color: #FFDEDB;
 }
 
+header h2{
+
+  font-size: 32px;
+  line-height: 30px;
+  text-indent: 30px;
+  color: #FF0062;
+}
+
 header::before {
     content:"";
     position: absolute;
@@ -95,6 +103,14 @@ header p {
 
 @media screen and (max-width: 900px) { 
 header h1 
+}
+
+header h2{
+
+  font-size: 32px;
+  line-height: 30px;
+  text-indent: 30px;
+  color: #FF0062;
 }
 
 p {
@@ -140,4 +156,16 @@ p {
 
   font-size: 20px;
   line-height: 20px;
+}
+
+p {
+
+  font-size: 22px;
+  line-height: 30px;
+  text-indent: 30px;
+  color: #B85367;
+}
+
+div{
+  
 }
