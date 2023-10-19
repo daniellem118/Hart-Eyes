@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap')
 :root {
   --he-primary-color: #B85367;
 }
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap')
 
 h1{
   font-family: 'Itim', cursive;
@@ -9,6 +9,7 @@ h1{
   }
 
 body {
+  max-width: 100%;
   background-color: #FFDEDB;
 }
 
@@ -23,25 +24,32 @@ nav {
   height: 100px;
   background-color: #B85367;
   word-spacing: 10px;
+  padding: 20px;
+  font-family: 'Itim', cursive;
 }
 
 nav ul {
-    margin: 4rem 2rem 2 rem 2rem;
+    margin: 4rem 2rem 2rem 2rem;
     list-style: none;
     display: flex;
+    gap: 30px;
 }
 
 nav ul li.logo {
   margin-right: 2rem;
 }
 
-nav ul li.logo {
+nav ul li.logo { 
+    word-spacing: 10px;
     width:100px;
     margin-right: auto;
+   
 }
 
 nav ul li {
-  color: #B85367;
+  color: #FFDEDB;
+  text-decoration: none;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -56,6 +64,28 @@ nav ul li {
     }
 }
 
+
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%px;
+  padding: 5px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer{
+  padding: 20px;
+}
+
 header {
   width: 100vw;
   height: 100vh;
@@ -68,8 +98,9 @@ header {
   color: #FFDEDB;
 }
 
-header h2{
+h2{
 
+  font-family: 'Itim', cursive;
   font-size: 32px;
   line-height: 30px;
   text-indent: 30px;
@@ -93,7 +124,15 @@ header h1 {
     line-height: 1px;
 }
 
+header h2{
+  font-family: 'Itim', cursive;
+  font-size: 32px;
+  line-height: 30px;
+  text-indent: 30px;
+  color: #FF0062;
+}
 header p {
+    font-family: 'Itim', cursive;
     font-size: 32px;
     font-weight: 300;
     font-height: 1px;
@@ -105,20 +144,15 @@ header p {
 header h1 
 }
 
-header h2{
-
-  font-size: 32px;
-  line-height: 30px;
-  text-indent: 30px;
-  color: #FF0062;
-}
-
 p {
 
+  font-family: 'Itim', cursive;
   font-size: 22px;
   line-height: 30px;
   text-indent: 30px;
   color: #B85367;
+  padding: 10px;
+  text-align: center;
 }
 
 {
@@ -129,6 +163,7 @@ p {
     header p {
       font-size: 30px;
 } 
+
 
 
 .btn {
@@ -167,5 +202,15 @@ p {
 }
 
 div{
-  
+
+}
+
+
+.donate{
+  align-content: center;
+}
+
+footer{
+  padding: 10px;
+  margin-left: left;
 }
