@@ -64,24 +64,6 @@ nav ul li {
     }
 }
 
-
-*{
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%px;
-  padding: 5px;
-}
-
-.row::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 footer{
   padding: 20px;
 }
